@@ -2,16 +2,27 @@
 
 import { Separator } from "@/components/ui/separator"
 import { Note, Section } from "@/types/types"
+import Image from 'next/image'
 
-export default function NumenorNexusPage({ title, content, sections, notes }) {
+export default function NumenorNexusPage({ title, content, sections, notes, imageUrl }) {
     return (
         <div className="grid md:grid-cols-[1fr_300px] w-full h-screen ">
             <div className="flex flex-col h-full">
                 <div className="prose prose-lg p-8 flex-1 overflow-auto">
                     <h1 className="text-5xl font-bold mb-4">{title}</h1>
                     <div dangerouslySetInnerHTML={{ __html: content }} className="text-lg mb-2"/>
-                    {imageUrl}
                     <Separator className="mb-4"/>
+                    {imageUrl && (
+                        <div className="flex justify-center mb-4 w-full">
+                            <Image
+                                src={`/${imageUrl}`}
+                                alt={title}
+                                width={500}
+                                height={300}
+                                className="rounded-lg shadow-md"
+                            />
+                        </div>
+                    )}
                     {sections.map((section, index) => (
                         <div key={index}>
                             <h2 className="text-xl font-bold my-3.5">{section.title}</h2>

@@ -131,6 +131,7 @@ export async function getContentData(contentType: string, slug: string): Promise
         content: `<p>${item.description}</p>`,
         sections,
         notes,
+        imageUrl: item.imageUrl,
     };
 }
 export async function getContentList(contentType: string): Promise<ContentType[]> {
