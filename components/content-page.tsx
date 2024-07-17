@@ -11,7 +11,7 @@ export default function NumenorNexusPage({ title, content, sections, notes, imag
                 <div className="prose prose-lg p-8 flex-1 overflow-auto">
                     <h1 className="text-5xl font-bold mb-4">{title}</h1>
                     {imageUrl && (
-                        <div className="flex justify-center mb-4 w-full">
+                        <div className="flex justify-center mb-4 w-8/12 object-scale-down">
                             <Image
                                 src={`/${imageUrl}`}
                                 alt={title}

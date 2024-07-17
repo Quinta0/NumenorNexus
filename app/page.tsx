@@ -20,20 +20,6 @@ export default function LandingPage() {
     };
   return (
       <div className="flex min-h-[100dvh] flex-col bg-background">
-        <header className="px-4 lg:px-6 h-14 flex items-center border-b">
-          <Link href="/" className="flex items-center justify-center" prefetch={false}>
-            <MountainIcon className="size-6 mr-2" />
-            <span className="font-bold text-lg">NumenorNexus</span>
-          </Link>
-          <nav className="ml-auto flex gap-4 sm:gap-6">
-            <Link href="/explore" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
-              Explore
-            </Link>
-            <Link href="/graph" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
-              Graph View
-            </Link>
-          </nav>
-        </header>
         <main className="flex-1 flex flex-col items-center justify-center px-4 py-12 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
             <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl">
@@ -106,25 +92,6 @@ export default function LandingPage() {
           </div>
         </main>
       </div>
-  )
-}
-
-function MountainIcon(props) {
-  return (
-      <svg
-          {...props}
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth="2"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-      >
-        <path d="m8 3 4 8 5-5 5 15H2L8 3z" />
-      </svg>
   )
 }
 

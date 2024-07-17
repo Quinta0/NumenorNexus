@@ -2,6 +2,7 @@ import { DM_Sans } from 'next/font/google'
 import { Space_Mono } from 'next/font/google'
 import { cn } from '@/lib/utils'
 import './globals.css'
+import Header from '@/components/Header'
 
 const fontHeading = DM_Sans({
   subsets: ['latin'],
@@ -19,6 +20,7 @@ const fontBody = Space_Mono({
 export default function Layout({ children }) {
   return (
       <html lang="en">
+
       <body
           className={cn(
               'antialiased',
@@ -26,6 +28,7 @@ export default function Layout({ children }) {
               fontBody.variable
           )}
       >
+        <Header />
       {children}
       </body>
       </html>
