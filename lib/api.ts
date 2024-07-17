@@ -1,4 +1,5 @@
 import { ContentType, Section, Note, Page } from '@/types/types';
+import contentData from '@/data/content.json';
 
 const data: Record<string, ContentType[]> = {
     characters: [
@@ -16,7 +17,7 @@ const data: Record<string, ContentType[]> = {
     locations: [
         { id: 'rivendell', name: 'Rivendell', description: 'Elven outpost in Middle-earth', imageUrl: 'rivendell.jpg', content: 'Rivendell is an Elven refuge in Middle-earth, founded by Elrond. It is a place of peace and healing, and serves as a sanctuary for the Fellowship before their journey.' },
         { id: 'minas-tirith', name: 'Minas Tirith', description: 'Capital of Gondor', imageUrl: 'minas-tirith.jpg', content: 'Minas Tirith, also known as the White City, is the capital of Gondor. It is a fortress city and the site of the climactic battle in the War of the Ring.' },
-        { id: 'mordor', name: 'Mordor', description: 'Sauron\'s realm', imageUrl: 'mordor.jpg', content: 'Mordor is the dark realm of Sauron, located in the southeast of Middle-earth. It is a land of ash and fire, dominated by Mount Doom, where the One Ring must be destroyed.' },
+        { id: 'mordor', name: 'Mordor', description: 'Sauron\'s realm', imageUrl: 'mordor.webp', content: 'Mordor is the dark realm of Sauron, located in the southeast of Middle-earth. It is a land of ash and fire, dominated by Mount Doom, where the One Ring must be destroyed.' },
         { id: 'shire', name: 'The Shire', description: 'Homeland of the Hobbits', imageUrl: 'shire.jpg', content: 'The Shire is a peaceful, rural region in Eriador, inhabited by Hobbits. It is the home of Frodo Baggins and the starting point of his quest.' },
         { id: 'rohan', name: 'Rohan', description: 'Kingdom of the Horse-lords', imageUrl: 'rohan.jpg', content: 'Rohan is a kingdom of horsemen, known as the Rohirrim, led by King Théoden. Its people are known for their cavalry and played a significant role in the War of the Ring.' },
         { id: 'helms-deep', name: 'Helm\'s Deep', description: 'Fortress of Rohan', imageUrl: 'helms-deep.jpg', content: 'Helm\'s Deep is a fortress in Rohan, famous for the Battle of Helm\'s Deep, where the Rohirrim, aided by Aragorn and his companions, defend against Saruman\'s forces.' },
@@ -36,7 +37,6 @@ const data: Record<string, ContentType[]> = {
     ],
     items: [
         { id: 'one-ring', name: 'The One Ring', description: 'The master ring forged by Sauron', imageUrl: 'one-ring.jpg', content: 'The One Ring is a powerful artifact created by Sauron to control the other Rings of Power and dominate Middle-earth. It must be destroyed to defeat Sauron.' },
-        { id: 'anduril', name: 'Andúril', description: 'Sword of Aragorn, reforged from Narsil', imageUrl: 'narsil.webp', content: 'Andúril, also known as the Flame of the West, is the sword reforged from the shards of Narsil. It is wielded by Aragorn and symbolizes his rightful claim to the throne of Gondor.' },
         { id: 'sting', name: 'Sting', description: 'Frodo\'s Elven sword', imageUrl: 'sting.jpg', content: 'Sting is a short sword given to Frodo Baggins by Bilbo. It glows blue in the presence of Orcs and proves to be a valuable weapon in Frodo\'s journey.' },
         { id: 'mithril', name: 'Mithril Shirt', description: 'Frodo\'s protective chainmail', imageUrl: 'mithril.jpg', content: 'The Mithril Shirt is a lightweight and incredibly strong chainmail shirt given to Frodo by Bilbo. It provides essential protection throughout Frodo\'s quest.' },
         { id: 'phial-of-galadriel', name: 'Phial of Galadriel', description: 'Light given to Frodo by Galadriel', imageUrl: 'phial-of-galadriel.jpg', content: 'The Phial of Galadriel is a small crystal vial containing the light of Eärendil\'s star. It is given to Frodo by Galadriel and helps him in moments of darkness and despair.' },
@@ -53,6 +53,7 @@ const data: Record<string, ContentType[]> = {
         { id: 'maia', name: 'Maia', description: 'Lesser Ainur', imageUrl: 'maia.jpg', content: 'Maiar are lesser Ainur, divine spirits who entered the world to help shape and guide it. Some, like Gandalf and Saruman, took human form to assist in the fight against Sauron.' },
     ],
     artifacts: [
+        { id: 'anduril', name: 'Andúril', description: 'Sword of Aragorn, reforged from Narsil', imageUrl: 'narsil.webp', content: 'Andúril, also known as the Flame of the West, is the sword reforged from the shards of Narsil. It is wielded by Aragorn and symbolizes his rightful claim to the throne of Gondor.' },
         { id: 'palantir', name: 'Palantír', description: 'Seeing-stones of Númenor', imageUrl: 'palantir.jpg', content: 'Palantíri are ancient seeing-stones created by the Númenóreans. They allow communication and vision over great distances, but can be dangerous if used by those with ill intent.' },
         { id: 'silmarils', name: 'Silmarils', description: 'Three jewels crafted by Fëanor', imageUrl: 'silmarils.webp', content: 'Silmarils are three brilliant jewels crafted by Fëanor in the First Age. They contain the light of the Two Trees of Valinor and play a central role in the history of Middle-earth.' },
         { id: 'white-tree', name: 'White Tree of Gondor', description: 'Symbol of Gondor', imageUrl: 'white-tree.jpg', content: 'The White Tree of Gondor is a symbol of the kingdom and its line of kings. It stands in Minas Tirith and represents the continuity and resilience of Gondor.' },
@@ -80,60 +81,19 @@ export async function getContentData(contentType: string, slug: string): Promise
         throw new Error(`Content with slug "${slug}" not found in "${contentType}"`);
     }
 
-    let sections: Section[] = [];
-    let notes: Note[] = [];
-
-    if (contentType === 'characters') {
-        sections = [
-            { title: 'Biography', description: item.content },
-            { title: 'Role in the War of the Ring', description: 'Details about the character\'s involvement...' },
-            { title: 'Abilities and Traits', description: 'Notable characteristics and skills...' },
-            { image: item.imageUrl}
-        ];
-        notes = [
-            { title: 'Appearances', description: 'List of books or adaptations where the character appears' },
-            { title: 'Family', description: 'Information about the character\'s family members' },
-        ];
-    } else if (contentType === 'locations') {
-        sections = [
-            { title: 'Description', description: item.content },
-            { title: 'History', description: 'Historical information about the location...' },
-            { title: 'Significance', description: 'The location\'s importance in Middle-earth...' },
-        ];
-        notes = [
-            { title: 'Inhabitants', description: 'Notable residents or populations' },
-            { title: 'Events', description: 'Major events that occurred at this location' },
-        ];
-    } else if (contentType === 'events') {
-        sections = [
-            { title: 'Overview', description: item.content },
-            { title: 'Participants', description: 'Key individuals involved in the event...' },
-            { title: 'Consequences', description: 'Impact of the event on Middle-earth...' },
-        ];
-        notes = [
-            { title: 'Locations', description: 'Places where the event took place' },
-            { title: 'Timeline', description: 'When the event occurred in Middle-earth history' },
-        ];
-    } else if (contentType === 'items') {
-        sections = [
-            { title: 'Description', description: item.content },
-            { title: 'History', description: 'The item\'s origins and significance...' },
-            { title: 'Powers and Abilities', description: 'Magical or special properties of the item...' },
-        ];
-        notes = [
-            { title: 'Owners', description: 'Notable characters who possessed the item' },
-            { title: 'Legends', description: 'Myths or stories associated with the item' },
-        ];
+    const itemContent = contentData[contentType]?.[slug];
+    if (!itemContent) {
+        throw new Error(`Content for "${slug}" not found in content data`);
     }
 
     return {
         title: item.name,
-        content: `<p>${item.description}</p>`,
-        sections,
-        notes,
+        content: itemContent.mainContent,
+        sections: itemContent.relevantSections,
+        notes: itemContent.notes,
         imageUrl: item.imageUrl,
     };
 }
 export async function getContentList(contentType: string): Promise<ContentType[]> {
-    return data[contentType] || [];
+    return data[contentType].map(item => ({...item, contentType})) || [];
 }

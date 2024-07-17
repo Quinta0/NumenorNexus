@@ -40,3 +40,8 @@
     @apply font-heading;
   }
 }
+
+html {
+  @apply antialiased;
+  scroll-behavior: smooth;
+}

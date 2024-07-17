@@ -60,7 +60,7 @@ export default function LandingPage() {
                       <ul>
                           {searchResults.map((result) => (
                               <li key={result.id} className="mb-2">
-                                  <Link href={`/${result.type}/${result.id}`} className="text-blue-500 hover:underline">
+                                  <Link href={`/${result.contentType}/${result.id}`} className="text-blue-500 hover:underline">
                                       {result.name}
                                   </Link>
                                   <p className="text-sm text-gray-600">{result.description}</p>

@@ -32,11 +32,17 @@ export interface Note {
     description: string;
 }
 
+export interface ContentSection {
+    heading: string;
+    content: string;
+}
+
 export interface Page {
     title: string;
-    content: string;
+    content: ContentSection[];
     sections: Section[];
     notes: Note[];
+    imageUrl: string;
 }
 
 export interface Chapter {

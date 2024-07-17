@@ -10,8 +10,6 @@ export default function NumenorNexusPage({ title, content, sections, notes, imag
             <div className="flex flex-col h-full">
                 <div className="prose prose-lg p-8 flex-1 overflow-auto">
                     <h1 className="text-5xl font-bold mb-4">{title}</h1>
-                    <div dangerouslySetInnerHTML={{ __html: content }} className="text-lg mb-2"/>
-                    <Separator className="mb-4"/>
                     {imageUrl && (
                         <div className="flex justify-center mb-4 w-full">
                             <Image
@@ -19,14 +17,15 @@ export default function NumenorNexusPage({ title, content, sections, notes, imag
                                 alt={title}
                                 width={500}
                                 height={300}
+                                layout="responsive"
                                 className="rounded-lg shadow-md"
                             />
                         </div>
                     )}
-                    {sections.map((section, index) => (
+                    {content.map((section, index) => (
                         <div key={index}>
-                            <h2 className="text-xl font-bold my-3.5">{section.title}</h2>
-                            <p className="text-justify">{section.description}</p>
+                            <h2 className="text-2xl font-bold my-3.5">{section.heading}</h2>
+                            <p className="text-justify">{section.content}</p>
                         </div>
                     ))}
                 </div>
