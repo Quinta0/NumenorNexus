@@ -64,8 +64,6 @@ const data: Record<string, ContentType[]> = {
     ],
 };
 
-
-
 export async function getContentData(contentType: string, slug: string): Promise<Page> {
     if (!contentType || !slug) {
         throw new Error('Invalid content type or slug');
@@ -81,7 +79,7 @@ export async function getContentData(contentType: string, slug: string): Promise
         throw new Error(`Content with slug "${slug}" not found in "${contentType}"`);
     }
 
-    const itemContent = contentData[contentType]?.[slug];
+    const itemContent = contentData[contentType]?.[slug] || contentData[contentType]?.[item.id];
     if (!itemContent) {
         throw new Error(`Content for "${slug}" not found in content data`);
     }
@@ -94,6 +92,7 @@ export async function getContentData(contentType: string, slug: string): Promise
         imageUrl: item.imageUrl,
     };
 }
+
 export async function getContentList(contentType: string): Promise<ContentType[]> {
     return data[contentType].map(item => ({...item, contentType})) || [];
 }

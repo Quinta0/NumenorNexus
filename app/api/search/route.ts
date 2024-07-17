@@ -15,8 +15,9 @@ export async function GET(request: Request) {
     for (const contentType of contentTypes) {
         const items = await getContentList(contentType);
         const filteredItems = items.filter(item =>
-            item.name.toLowerCase().includes(query.toLowerCase()) ||
-            item.description.toLowerCase().includes(query.toLowerCase())
+            // item.name.toLowerCase().includes(query.toLowerCase()) ||
+            //item.description.toLowerCase().includes(query.toLowerCase())
+            item.name.toLowerCase().includes(query.toLowerCase())
         );
         allResults = [...allResults, ...filteredItems];
     }
