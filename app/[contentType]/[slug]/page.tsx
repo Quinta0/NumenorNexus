@@ -1,7 +1,7 @@
 // app/[contentType]/[slug]/page.tsx
-import { getContentData } from '@/lib/api'
 import NumenorNexusPage from '@/components/content-page'
 import { notFound } from 'next/navigation'
+import { getContentData } from "@/lib/api";
 
 export default async function Page({ params }: { params: { contentType: string; slug: string } }) {
     const { contentType, slug } = params
@@ -12,7 +12,7 @@ export default async function Page({ params }: { params: { contentType: string; 
 
     try {
         const pageData = await getContentData(contentType, slug)
-        return <NumenorNexusPage {...pageData} />
+        return <NumenorNexusPage {...pageData} contentType={contentType} slug={slug} />
     } catch (error) {
         console.error('Error fetching content:', error)
         notFound()

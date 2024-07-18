@@ -11,7 +11,7 @@ export default function NumenorNexusPage({ title, content, sections, notes, imag
                 <div className="prose prose-lg p-8 flex-1 overflow-auto">
                     <h1 className="text-5xl font-bold mb-4">{title}</h1>
                     {imageUrl && (
-                        <div className="flex justify-center mb-4 w-8/12 object-scale-down">
+                        <div className="flex justify-center mb-4 w-full">
                             <Image
                                 src={`/${imageUrl}`}
                                 alt={title}
@@ -29,16 +29,16 @@ export default function NumenorNexusPage({ title, content, sections, notes, imag
                         </div>
                     ))}
                 </div>
-                <div className="border-t p-4 flex items-center justify-between sm:[absolute w-full bottom-0 flex]">
-                    <div className="flex items-center gap-2">
-                        <PencilIcon className="w-5 h-5 text-muted-foreground" />
-                        <span className="text-sm text-muted-foreground">Edit Article</span>
-                    </div>
-                    <div className="flex items-center gap-2">
-                        <DownloadIcon className="w-5 h-5 text-muted-foreground" />
-                        <span className="text-sm text-muted-foreground">Download</span>
-                    </div>
-                </div>
+                {/*<div className="border-t p-4 flex items-center justify-between sm:[absolute w-full bottom-0 flex]">*/}
+                {/*    <div className="flex items-center gap-2">*/}
+                {/*        <PencilIcon className="w-5 h-5 text-muted-foreground" />*/}
+                {/*        <span className="text-sm text-muted-foreground">Edit Article</span>*/}
+                {/*    </div>*/}
+                {/*    <div className="flex items-center gap-2">*/}
+                {/*        <DownloadIcon className="w-5 h-5 text-muted-foreground" />*/}
+                {/*        <span className="text-sm text-muted-foreground">Download</span>*/}
+                {/*    </div>*/}
+                {/*</div>*/}
             </div>
             <div className="flex flex-col h-full border-l p-8 overflow-auto">
                 <h2 className="text-2xl font-bold mb-4">Relevant Sections</h2>

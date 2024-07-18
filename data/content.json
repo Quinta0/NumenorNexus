@@ -4,11 +4,15 @@
       "mainContent": [
         {
           "heading": "Biography",
-          "content": "Aragorn II, son of Arathorn II and Gilraen, was the 16th Chieftain of the Dúnedain of the North. Raised in Rivendell, he was known as Estel ('Hope'). He later revealed his true identity and lineage as the heir of Isildur and rightful king of Gondor and Arnor."
+          "content": "Aragorn II, son of Arathorn II and Gilraen, was born in T.A. 2931. He was the 16th Chieftain of the Dúnedain of the North and the heir of Isildur to the thrones of Gondor and Arnor. Raised in Rivendell by Elrond, he was known as Estel ('Hope') in his youth. At the age of 20, Elrond revealed to him his true name and heritage, and gave him the shards of Narsil, the sword of Elendil that had been broken in the battle against Sauron."
         },
         {
           "heading": "Role in the War of the Ring",
-          "content": "Aragorn played a crucial role in the War of the Ring, leading the Fellowship of the Ring after Gandalf's fall in Moria and commanding the armies of the West in the climactic Battle of the Pelennor Fields and the final assault on Mordor."
+          "content": "Aragorn played a crucial role in the War of the Ring. He joined the Fellowship as a guide and protector, later becoming its leader after Gandalf's fall in Moria. He fought in key battles, including Helm's Deep and the Pelennor Fields. Aragorn's greatest contribution was leading the Army of the West in a diversionary attack on the Black Gate, allowing Frodo and Sam to complete their quest. After Sauron's defeat, Aragorn was crowned King Elessar Telcontar of the Reunited Kingdom of Gondor and Arnor."
+        },
+        {
+          "heading": "Skills and Abilities",
+          "content": "As a Dúnedain, Aragorn possessed longevity far beyond that of normal men. He was a skilled swordsman, tracker, and healer. His abilities as a healer were linked to his lineage, as it was said that 'the hands of the king are the hands of a healer.' Aragorn also had the strength of will to master the palantír of Orthanc, using it to reveal himself to Sauron and divert the Dark Lord's attention from Frodo's quest."
         }
       ],
       "relevantSections": [
@@ -36,11 +40,15 @@
       "mainContent": [
         {
           "heading": "Biography",
-          "content": "Frodo Baggins, born on September 22, T.A. 2968, was a hobbit of the Shire. He was adopted by his cousin Bilbo Baggins and inherited Bag End after Bilbo's departure."
+          "content": "Frodo Baggins was born on September 22, T.A. 2968 to Drogo Baggins and Primula Brandybuck. Orphaned at a young age, he was adopted by his uncle, Bilbo Baggins. On Bilbo's 111th birthday, Frodo inherited Bag End and the One Ring, though he did not know its true nature at the time. It wasn't until years later that Gandalf confirmed the Ring's identity, setting in motion the events that would lead to the War of the Ring."
         },
         {
           "heading": "Role in the War of the Ring",
-          "content": "Frodo was entrusted with the One Ring and tasked with the perilous journey to Mount Doom to destroy it. His bravery and resilience were crucial in the quest to defeat Sauron."
+          "content": "As the Ring-bearer, Frodo took on the monumental task of destroying the One Ring. His journey took him from the Shire to Rivendell, through Moria, to Lothlórien, and finally into the heart of Mordor itself. Along the way, he faced numerous challenges, including the Nazgûl, the treachery of Gollum, and the ever-growing burden of the Ring. Though he ultimately failed to destroy the Ring by his own will, his mercy towards Gollum ironically led to the Ring's destruction and the downfall of Sauron."
+        },
+        {
+          "heading": "Character and Legacy",
+          "content": "Frodo demonstrated extraordinary resilience, courage, and compassion throughout his quest. Despite the corrupting influence of the Ring, he maintained his integrity and compassion, even towards Gollum. The trauma of his experiences, however, left deep scars. After the war, he struggled to reintegrate into life in the Shire. Ultimately, he sailed to the Undying Lands with the elves, seeking healing and peace."
         }
       ],
       "relevantSections": [
@@ -326,11 +334,15 @@
       "mainContent": [
         {
           "heading": "Description",
-          "content": "The Shire is a peaceful and idyllic region in the northwest of Middle-earth, inhabited by hobbits. It is characterized by its lush green landscapes, rolling hills, and well-tended gardens."
+          "content": "The Shire is a small but beautiful countrified region in the northwest of Middle-earth, home to the Hobbits. It is located in the region of Eriador and is approximately 120 miles from east to west and 150 miles from north to south. The Shire is known for its peaceful, rustic lifestyle, and its lush, green landscapes dotted with rolling hills, meadows, and woods."
+        },
+        {
+          "heading": "Government and Society",
+          "content": "The Shire was divided into four Farthings (North, South, East, and West) and the Buckland. It was a largely self-governing region, with the office of Thain being the closest thing to a political leader. The Shire-moot and Shire-muster were assemblies called in times of emergency. The only official of the King was the Mayor of Michel Delving, who was elected every seven years at the Free Fair."
         },
         {
           "heading": "Significance in the Story",
-          "content": "The Shire is the home of Frodo Baggins and the starting point of his journey to destroy the One Ring. It represents the simple and peaceful life that Frodo and his companions are fighting to protect."
+          "content": "The Shire serves as both the starting point and the heart of the story in 'The Lord of the Rings'. It represents the simple, peaceful life that the hobbits, particularly Frodo and his companions, are fighting to protect. The Scouring of the Shire near the end of the story demonstrates how even this idyllic land was not untouched by the War of the Ring, but also showcases the growth and courage of the hobbits who returned from their adventures."
         }
       ],
       "relevantSections": [
@@ -518,11 +530,15 @@
       "mainContent": [
         {
           "heading": "Description",
-          "content": "Mordor is a dark and barren land in the southeast of Middle-earth, dominated by the presence of Mount Doom and the Dark Tower of Barad-dûr. It is the realm of Sauron, the Dark Lord."
+          "content": "Mordor is a vast, dark realm located in the southeast of Middle-earth. It is surrounded by mountain ranges on three sides: the Ash Mountains (Ered Lithui) to the north, and the Mountains of Shadow (Ephel Dúath) to the west and south. The land is characterized by volcanic plains, barren wastelands, and the fiery Mount Doom (Orodruin) where Sauron forged the One Ring."
+        },
+        {
+          "heading": "Key Locations",
+          "content": "The most prominent locations in Mordor include Barad-dûr, Sauron's dark fortress; Mount Doom, the volcano where the One Ring was created and destroyed; the Black Gate (Morannon), the main entrance to Mordor; and Minas Morgul, the former Gondorian city corrupted by the Nazgûl. The plateau of Gorgoroth forms the heartland of Mordor, while the more fertile region of Nurn lies to the south."
         },
         {
           "heading": "Significance in the Story",
-          "content": "Mordor is the destination of Frodo and Sam's quest to destroy the One Ring. It represents the heart of Sauron's power and the source of the greatest threat to Middle-earth."
+          "content": "Mordor is the seat of Sauron's power and the ultimate destination of Frodo's quest to destroy the One Ring. Its harsh landscape and dangerous inhabitants make it the most perilous part of the Ring-bearer's journey. The destruction of the Ring in Mount Doom leads to the collapse of Sauron's power and the crumbling of his realm, marking the end of the Third Age of Middle-earth."
         }
       ],
       "relevantSections": [
@@ -543,6 +559,374 @@
         {
           "title": "Barad-dûr",
           "description": "The Dark Tower, Sauron's fortress in Mordor. It is the epicenter of his power and malevolent influence."
+        }
+      ]
+    },
+    "beleriand": {
+      "mainContent": [
+        {
+          "heading": "Description",
+          "content": "Beleriand was a vast region in the northwest of Middle-earth during the First Age, largely destroyed and sunk beneath the sea at the end of the First Age."
+        }
+      ],
+      "relevantSections": [
+        {
+          "title": "Geography",
+          "description": "Beleriand was bounded to the north by the Ered Wethrin and Ered Luin, to the east by the Blue Mountains, to the south by the Great Sea, and to the west by the Great Sea and Belegaer."
+        },
+        {
+          "title": "Significance",
+          "description": "Beleriand was the primary setting for most of the events of The Silmarillion, including the wars between the Elves and Morgoth."
+        }
+      ],
+      "notes": [
+        {
+          "title": "Fate",
+          "description": "Much of Beleriand was destroyed and sunk beneath the sea at the end of the First Age during the War of Wrath."
+        }
+      ]
+    },
+    "doriath": {
+      "mainContent": [
+        {
+          "heading": "Description",
+          "content": "Doriath was the kingdom of the Sindar, ruled by King Thingol and the Maia Melian."
+        }
+      ],
+      "relevantSections": [
+        {
+          "title": "Protection",
+          "description": "Doriath was encircled by the Girdle of Melian, an enchantment that protected the kingdom from outside threats."
+        },
+        {
+          "title": "Capital",
+          "description": "The capital of Doriath was the underground city of Menegroth, also known as the 'Thousand Caves'."
+        }
+      ],
+      "notes": [
+        {
+          "title": "Fate",
+          "description": "Doriath fell after the death of Thingol, first to the Dwarves of Nogrod, and later to the sons of Fëanor."
+        }
+      ]
+    },
+    "nargothrond": {
+      "mainContent": [
+        {
+          "heading": "Description",
+          "content": "Nargothrond was a hidden underground stronghold built by Finrod Felagund on the banks of the river Narog."
+        }
+      ],
+      "relevantSections": [
+        {
+          "title": "Architecture",
+          "description": "Inspired by Menegroth in Doriath, Nargothrond was a vast network of caves and tunnels."
+        },
+        {
+          "title": "Fall",
+          "description": "Nargothrond fell to the dragon Glaurung after its location was revealed due to the pride of Túrin Turambar."
+        }
+      ],
+      "notes": [
+        {
+          "title": "Significance",
+          "description": "Nargothrond played a crucial role in the tales of Beren and Lúthien, and later in the story of Túrin Turambar."
+        }
+      ]
+    },
+    "himring": {
+      "mainContent": [
+        {
+          "heading": "Description",
+          "content": "Himring was a hill fortress in northeast Beleriand, ruled by Maedhros, eldest son of Fëanor."
+        }
+      ],
+      "relevantSections": [
+        {
+          "title": "Location",
+          "description": "Himring stood on a high hill in the northeast of Beleriand, between Aglon and Maglor's Gap."
+        },
+        {
+          "title": "Strategic Importance",
+          "description": "Himring was a key stronghold in the defense against Morgoth's forces from Angband."
+        }
+      ],
+      "notes": [
+        {
+          "title": "Survival",
+          "description": "Himring survived the drowning of Beleriand and became an island in the Second and Third Ages, known as Himling."
+        }
+      ]
+    },
+    "belegost-and-nogrod": {
+      "mainContent": [
+        {
+          "heading": "Description",
+          "content": "Belegost and Nogrod were two great Dwarven cities in the Blue Mountains during the First Age."
+        }
+      ],
+      "relevantSections": [
+        {
+          "title": "Belegost",
+          "description": "Known for its craftsmanship, particularly in metalwork and stonework. Home to Azaghâl, who wounded Glaurung."
+        },
+        {
+          "title": "Nogrod",
+          "description": "Renowned for its smiths and masons. The Dwarves of Nogrod created Nauglamír, the Necklace of the Dwarves."
+        }
+      ],
+      "notes": [
+        {
+          "title": "Fate",
+          "description": "Both cities were ruined in the breaking of Thangorodrim and the drowning of Beleriand, though some of their people survived."
+        }
+      ]
+    },
+    "falas": {
+      "mainContent": [
+        {
+          "heading": "Description",
+          "content": "The Falas was the western coast of Beleriand, home to the Falathrim Elves led by Círdan the Shipwright."
+        }
+      ],
+      "relevantSections": [
+        {
+          "title": "Major Havens",
+          "description": "The two main cities of the Falas were the havens of Brithombar and Eglarest."
+        },
+        {
+          "title": "Significance",
+          "description": "The Falas played a crucial role in maintaining contact between the Elves of Beleriand and their kin in Aman."
+        }
+      ],
+      "notes": [
+        {
+          "title": "Fate",
+          "description": "The havens were destroyed by Morgoth's forces after the Nirnaeth Arnoediad, with survivors fleeing to the Isle of Balar."
+        }
+      ]
+    },
+    "ossiriand": {
+      "mainContent": [
+        {
+          "heading": "Description",
+          "content": "Ossiriand was the easternmost region of Beleriand, home to the Green-elves or Laiquendi."
+        }
+      ],
+      "relevantSections": [
+        {
+          "title": "Geography",
+          "description": "A land of seven rivers, hence its other name, Lindon (Land of Many Rivers)."
+        },
+        {
+          "title": "Inhabitants",
+          "description": "Home to the Green-elves led by Denethor, and later the refuge of Beren and Lúthien."
+        }
+      ],
+      "notes": [
+        {
+          "title": "Legacy",
+          "description": "Parts of Ossiriand survived the drowning of Beleriand, becoming the region known as Lindon in later ages."
+        }
+      ]
+    },
+    "erebor": {
+      "mainContent": [
+        {
+          "heading": "Description",
+          "content": "Erebor, also known as the Lonely Mountain, was a great Dwarven kingdom and fortress in the northeast of Rhovanion."
+        },
+        {
+          "heading": "Significance",
+          "content": "Erebor was the primary setting for much of The Hobbit, being the goal of Thorin Oakenshield's quest."
+        }
+      ],
+      "relevantSections": [
+        {
+          "title": "Architecture",
+          "description": "The mountain was hollowed out into a vast network of halls, chambers, and mines, showcasing the pinnacle of Dwarven craftsmanship."
+        },
+        {
+          "title": "Arkenstone",
+          "description": "The heart of the mountain was the Arkenstone, a great jewel discovered by Thráin I and considered the kingdom's greatest treasure."
+        }
+      ],
+      "notes": [
+        {
+          "title": "Dragon's Lair",
+          "description": "Erebor was seized by the dragon Smaug in T.A. 2770, who was later slain by Bard the Bowman in T.A. 2941."
+        },
+        {
+          "title": "Restoration",
+          "description": "After Smaug's death, Erebor was reclaimed by the Dwarves under Dáin Ironfoot, becoming a stronghold in the north once again."
+        }
+      ]
+    },
+    "mirkwood": {
+      "mainContent": [
+        {
+          "heading": "Description",
+          "content": "Mirkwood was a great forest in Middle-earth, home to Wood-elves and various creatures. It played a significant role in The Hobbit."
+        }
+      ],
+      "relevantSections": [
+        {
+          "title": "History",
+          "description": "Originally called Greenwood the Great, it became known as Mirkwood after Sauron, disguised as the Necromancer, took residence in Dol Guldur."
+        },
+        {
+          "title": "Inhabitants",
+          "description": "Home to Thranduil's Woodland Realm, as well as giant spiders descended from Ungoliant."
+        }
+      ],
+      "notes": [
+        {
+          "title": "The Hobbit",
+          "description": "Bilbo and the Dwarves passed through Mirkwood on their quest, encountering both the Wood-elves and the giant spiders."
+        },
+        {
+          "title": "Cleansing",
+          "description": "After the War of the Ring, Galadriel cleansed Dol Guldur, and the forest became known as Eryn Lasgalen, 'The Wood of Greenleaves'."
+        }
+      ]
+    },
+    "gondolin": {
+      "mainContent": [
+        {
+          "heading": "Description",
+          "content": "Gondolin was a hidden city of the Elves in Beleriand during the First Age, founded by Turgon."
+        }
+      ],
+      "relevantSections": [
+        {
+          "title": "Location",
+          "description": "Built in a hidden valley surrounded by the Encircling Mountains, Gondolin remained secret for centuries."
+        },
+        {
+          "title": "Fall of Gondolin",
+          "description": "The city's location was betrayed by Maeglin, leading to its destruction by Morgoth's forces in F.A. 510."
+        }
+      ],
+      "notes": [
+        {
+          "title": "Legacy",
+          "description": "Many artifacts from Gondolin, including Glamdring and Orcrist, survived into the Third Age."
+        },
+        {
+          "title": "Significance",
+          "description": "Gondolin's fall was one of the most significant events of the First Age, marking the near-total defeat of the Elves in Beleriand."
+        }
+      ]
+    },
+    "numenor": {
+      "mainContent": [
+        {
+          "heading": "Description",
+          "content": "Númenor was a great island kingdom given to the Edain by the Valar at the beginning of the Second Age."
+        }
+      ],
+      "relevantSections": [
+        {
+          "title": "Geography",
+          "description": "A star-shaped island in the Great Sea between Middle-earth and Aman, with the port city of Rómenna and the capital Armenelos."
+        },
+        {
+          "title": "Downfall",
+          "description": "Númenor was destroyed when its last king, Ar-Pharazôn, attempted to invade Aman, defying the Ban of the Valar."
+        }
+      ],
+      "notes": [
+        {
+          "title": "Legacy",
+          "description": "The surviving Númenóreans founded the kingdoms of Gondor and Arnor in Middle-earth."
+        },
+        {
+          "title": "Significance",
+          "description": "The fall of Númenor reshaped the world, removing Aman from the circles of the world and making the earth round."
+        }
+      ]
+    },
+    "valinor": {
+      "mainContent": [
+        {
+          "heading": "Description",
+          "content": "Valinor, part of Aman, was the realm of the Valar in the Uttermost West, home to many of the Eldar."
+        }
+      ],
+      "relevantSections": [
+        {
+          "title": "Geography",
+          "description": "Featured the Two Trees of Valinor, mountains like Taniquetil, and cities such as Valmar and Tirion."
+        },
+        {
+          "title": "Access",
+          "description": "After the fall of Númenor, Valinor was removed from the circles of the world, accessible only by the Straight Road."
+        }
+      ],
+      "notes": [
+        {
+          "title": "Significance",
+          "description": "Valinor was the source of much of the light and power in Tolkien's mythology, including the Silmarils and the Two Trees."
+        },
+        {
+          "title": "End of the Third Age",
+          "description": "At the end of the Third Age, the last of the Ring-bearers sailed to Valinor, marking the end of the Elven presence in Middle-earth."
+        }
+      ]
+    },
+    "angband": {
+      "mainContent": [
+        {
+          "heading": "Description",
+          "content": "Angband was the great underground fortress of Morgoth in the Iron Mountains of the north of Beleriand."
+        }
+      ],
+      "relevantSections": [
+        {
+          "title": "Construction",
+          "description": "Built by Morgoth as a first line of defense for his main fortress of Utumno, it later became his primary stronghold."
+        },
+        {
+          "title": "Sieges",
+          "description": "Angband was besieged by the Noldor for nearly 400 years during the Siege of Angband, until the Dagor Bragollach."
+        }
+      ],
+      "notes": [
+        {
+          "title": "Inhabitants",
+          "description": "Home to Morgoth's armies of Orcs, Balrogs, and dragons, including Glaurung and later Ancalagon the Black."
+        },
+        {
+          "title": "Destruction",
+          "description": "Angband was destroyed in the War of Wrath at the end of the First Age, when the Valar finally defeated Morgoth."
+        }
+      ]
+    },
+    "minas-tirith": {
+      "mainContent": [
+        {
+          "heading": "Description",
+          "content": "Minas Tirith, the 'Tower of Guard', was the capital city of Gondor and a major stronghold of Men in Middle-earth."
+        }
+      ],
+      "relevantSections": [
+        {
+          "title": "Architecture",
+          "description": "The city was built on seven levels, each surrounded by a wall, with the Citadel at the top housing the White Tree of Gondor."
+        },
+        {
+          "title": "Defense",
+          "description": "The city's main gate was made of iron and steel and faced east towards Mordor."
+        }
+      ],
+      "notes": [
+        {
+          "title": "History",
+          "description": "Originally named Minas Anor, it was renamed Minas Tirith when it became the chief city of Gondor after the fall of Osgiliath."
+        },
+        {
+          "title": "Significance",
+          "description": "Minas Tirith served as the centerpiece of Gondor's defense against Mordor and was the site of the Battle of the Pelennor Fields."
         }
       ]
     }
@@ -745,12 +1129,16 @@
     "one-ring": {
       "mainContent": [
         {
-          "heading": "Description",
-          "content": "The One Ring, forged by Sauron in the fires of Mount Doom, is a powerful artifact that grants its bearer immense power and influence over others."
+          "heading": "Description and Powers",
+          "content": "The One Ring, also known as the Ruling Ring or Isildur's Bane, was created by the Dark Lord Sauron in the fires of Mount Doom. It appeared as a plain gold ring, but when heated, elvish inscriptions in the Black Speech of Mordor became visible on its surface. The Ring granted its wearer invisibility by shifting them partly into the Unseen world. However, its primary power was the ability to dominate the wills of others, particularly those who wore the other Rings of Power."
         },
         {
-          "heading": "Powers",
-          "content": "The One Ring enhances the wearer's abilities but also corrupts and enslaves them to Sauron's will. It grants invisibility to its bearer and allows them to dominate the wills of others."
+          "heading": "History",
+          "content": "Forged in secret around S.A. 1600, Sauron poured much of his own power and will into the Ring. It was cut from his hand by Isildur at the end of the Second Age, but Isildur refused to destroy it. The Ring was lost in the Disaster of the Gladden Fields and remained hidden for nearly two and a half thousand years before being found by the hobbit-like Déagol. His friend Sméagol (later Gollum) murdered him for it and possessed the Ring for almost five hundred years before losing it to Bilbo Baggins."
+        },
+        {
+          "heading": "Role in the War of the Ring",
+          "content": "The One Ring was central to the War of the Ring. Sauron's resurgence and search for the Ring set the events of the war in motion. The Council of Elrond determined that the Ring must be destroyed, leading to the formation of the Fellowship and Frodo's quest to Mount Doom. The Ring's destruction marked the end of Sauron's power and the conclusion of the Third Age."
         }
       ],
       "relevantSections": [

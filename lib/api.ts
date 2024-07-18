@@ -1,3 +1,4 @@
+// lib/api.ts
 import { ContentType, Section, Note, Page } from '@/types/types';
 import contentData from '@/data/content.json';
 
@@ -137,13 +138,18 @@ export async function getContentData(contentType: string, slug: string): Promise
 
     return {
         title: item.name,
-        content: itemContent.mainContent,
-        sections: itemContent.relevantSections,
-        notes: itemContent.notes,
+        content: Array.isArray(itemContent.mainContent)
+            ? itemContent.mainContent
+            : [{ heading: "Description", content: itemContent.mainContent || item.description }],
+        sections: itemContent.relevantSections || [],
+        notes: itemContent.notes || [],
         imageUrl: item.imageUrl,
     };
 }
 
-export async function getContentList(contentType: string): Promise<ContentType[]> {
+export async function getContentList(contentType: string): Promise<{ contentType: string }[]> {
+    if (!data[contentType]) {
+        throw new Error(`Invalid content type: ${contentType}`);
+    }
     return data[contentType].map(item => ({...item, contentType})) || [];
 }

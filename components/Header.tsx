@@ -1,10 +1,19 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Header() {
     return (
     <header className="px-4 lg:px-6 h-14 flex items-center border-b">
         <Link href="/" className="flex items-center justify-center" prefetch={false}>
-            <MountainIcon className="size-6 mr-2" />
+            <div className="size-6 mr-2">
+                <Image
+                    priority
+                    src="logo.svg"
+                    height={32}
+                    width={32}
+                    alt="Follow us on Twitter"
+                />
+            </div>
             <span className="font-bold text-lg">NumenorNexus</span>
         </Link>
         <nav className="ml-auto flex gap-4 sm:gap-6">
@@ -16,24 +25,5 @@ export default function Header() {
             </Link>
         </nav>
     </header>
-    )
-}
-
-function MountainIcon(props) {
-    return (
-        <svg
-            {...props}
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-        >
-            <path d="m8 3 4 8 5-5 5 15H2L8 3z" />
-        </svg>
     )
 }
