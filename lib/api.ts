@@ -5,23 +5,23 @@ import contentData from '@/data/content.json';
 const data: Record<string, ContentType[]> = {
     characters: [
         { id: 'aragorn', name: 'Aragorn', race: 'Men', description: 'King of Gondor', imageUrl: 'aragorn.webp' },
-        { id: 'frodo', name: 'Frodo Baggins', race: 'Hobbit', description: 'Ring-bearer', imageUrl: 'frodo.jpg' },
-        { id: 'gandalf', name: 'Gandalf', race: 'Maia', description: 'Wizard and leader of the Fellowship', imageUrl: 'gandalf.jpg' },
+        { id: 'frodo', name: 'Frodo Baggins', race: 'Hobbit', description: 'Ring-bearer', imageUrl: 'frodo.webp' },
+        { id: 'gandalf', name: 'Gandalf', race: 'Maia', description: 'Wizard and leader of the Fellowship', imageUrl: 'gandalf.webp' },
         { id: 'legolas', name: 'Legolas', race: 'Elf', description: 'Prince of the Woodland Realm', imageUrl: 'legolas.avif' },
         { id: 'gimli', name: 'Gimli', race: 'Dwarf', description: 'Dwarf warrior and member of the Fellowship', imageUrl: 'gimli.avif' },
-        { id: 'samwise', name: 'Samwise Gamgee', race: 'Hobbit', description: 'Frodo\'s loyal companion', imageUrl: 'samwise.jpg' },
+        { id: 'samwise', name: 'Samwise Gamgee', race: 'Hobbit', description: 'Frodo\'s loyal companion', imageUrl: 'samwise.webp' },
         { id: 'saruman', name: 'Saruman', race: 'Maia', description: 'Corrupted wizard', imageUrl: 'saruman.jpg' },
         { id: 'gollum', name: 'Gollum', race: 'Hobbit', description: 'Former Ring-bearer', imageUrl: 'gollum.webp' },
         { id: 'boromir', name: 'Boromir', race: 'Men', description: 'Son of the Steward of Gondor', imageUrl: 'boromir.jpg' },
         { id: 'arwen', name: 'Arwen', race: 'Elf', description: 'Elven princess of Rivendell', imageUrl: 'arwen.jpg' },
-        { id: 'faramir', name: 'Faramir', race: 'Men', description: 'Brother of Boromir', imageUrl: 'faramir.jpg' },
-        { id: 'eowyn', name: 'Éowyn', race: 'Men', description: 'Shieldmaiden of Rohan', imageUrl: 'eowyn.jpg' },
-        { id: 'theoden', name: 'Théoden', race: 'Men', description: 'King of Rohan', imageUrl: 'theoden.jpg' },
-        { id: 'melkor', name: 'Melkor', race: 'Valar', description: 'Original Dark Lord', imageUrl: 'melkor.jpg' },
-        { id: 'sauron', name: 'Sauron', race: 'Maia', description: 'Dark Lord of Mordor', imageUrl: 'sauron.jpg' },
+        { id: 'faramir', name: 'Faramir', race: 'Men', description: 'Brother of Boromir', imageUrl: 'faramir.avif' },
+        { id: 'eowyn', name: 'Éowyn', race: 'Men', description: 'Shieldmaiden of Rohan', imageUrl: 'eowyn.webp' },
+        { id: 'theoden', name: 'Théoden', race: 'Men', description: 'King of Rohan', imageUrl: 'theoden.avif' },
+        { id: 'melkor', name: 'Melkor', race: 'Valar', description: 'Original Dark Lord', imageUrl: 'melkor.webp' },
+        { id: 'sauron', name: 'Sauron', race: 'Maia', description: 'Dark Lord of Mordor', imageUrl: 'sauron.avif' },
     ],
     locations: [
-        { id: 'rivendell', name: 'Rivendell', description: 'Elven outpost in Middle-earth', imageUrl: 'rivendell.jpg' },
+        { id: 'rivendell', name: 'Rivendell', description: 'Elven outpost in Middle-earth', imageUrl: 'rivendell.png' },
         { id: 'minas-tirith', name: 'Minas Tirith', description: 'Capital of Gondor', imageUrl: 'minas-tirith.jpg' },
         { id: 'mordor', name: 'Mordor', description: 'Sauron\'s realm', imageUrl: 'mordor.webp' },
         { id: 'shire', name: 'The Shire', description: 'Homeland of the Hobbits', imageUrl: 'shire.jpg' },
@@ -37,13 +37,13 @@ const data: Record<string, ContentType[]> = {
         { id: 'mount-doom', name: 'Mount Doom', description: 'Volcano in Mordor', imageUrl: 'mount-doom.jpg' },
         { id: 'weathertop', name: 'Weathertop', description: 'Ancient watchtower in Eriador', imageUrl: 'weathertop.jpg' },
         { id: 'bree', name: 'Bree', description: 'Village in Eriador', imageUrl: 'bree.jpg' },
-        { id: 'erebor', name: 'Erebor', description: 'Lonely Mountain', imageUrl: 'erebor.jpg' },
+        { id: 'erebor', name: 'Erebor', description: 'Lonely Mountain', imageUrl: 'erebor.webp' },
         { id: 'valinor', name: 'Valinor', description: 'Undying Lands', imageUrl: 'valinor.jpg' },
         { id: 'eagles-eyrie', name: 'Eagles\' Eyrie', description: 'Home of the Great Eagles', imageUrl: 'eagles-eyrie.jpg' },
         { id: 'grey-havens', name: 'Grey Havens', description: 'Elven port in the West', imageUrl: 'grey-havens.jpg' },
         { id: 'glittering-caves', name: 'Glittering Caves', description: 'Caves behind Helm\'s Deep', imageUrl: 'glittering-caves.jpg' },
         { id: 'angband', name: 'Angband', description: 'Fortress of Morgoth', imageUrl: 'angband.jpg' },
-        { id: 'numenor', name: 'Númenor', description: 'Island kingdom of the Dúnedain', imageUrl: 'numenor.jpg' },
+        { id: 'numenor', name: 'Númenor', description: 'Island kingdom of the Dúnedain', imageUrl: 'numenor.webp' },
         { id: 'dol-guldur', name: 'Dol Guldur', description: 'Sauron\'s fortress in Mirkwood', imageUrl: 'dol-guldur.jpg' },
         { id: 'lothgallen', name: 'Lothgallen', description: 'Ruined city in Gondor', imageUrl: 'lothgallen.jpg' },
         { id: 'dunharrow', name: 'Dunharrow', description: 'Refuge of the Rohirrim', imageUrl: 'dunharrow.jpg' },
@@ -58,7 +58,7 @@ const data: Record<string, ContentType[]> = {
         { id: 'council-of-elrond', name: 'Council of Elrond', date: 'T.A. 3018', description: 'Meeting to decide the fate of the One Ring', imageUrl: 'council-of-elrond.jpg' },
         { id: 'battle-of-helms-deep', name: 'Battle of Helm\'s Deep', date: 'T.A. 3019', description: 'Major battle in the War of the Ring', imageUrl: 'battle-of-helms-deep.jpg' },
         { id: 'siege-of-minas-tirith', name: 'Siege of Minas Tirith', date: 'T.A. 3019', description: 'Climactic battle of the War of the Ring', imageUrl: 'siege-of-minas-tirith.jpg' },
-        { id: 'destruction-of-the-one-ring', name: 'Destruction of the One Ring', date: 'T.A. 3019', description: 'End of Sauron\'s power', imageUrl: 'destruction-of-the-one-ring.jpg' },
+        { id: 'destruction-of-the-one-ring', name: 'Destruction of the One Ring', date: 'T.A. 3019', description: 'End of Sauron\'s power', imageUrl: 'destruction-of-the-one-ring.webp' },
         { id: 'journey-of-the-fellowship', name: 'Journey of the Fellowship', date: 'T.A. 3018-3019', description: 'The quest to destroy the One Ring', imageUrl: 'journey-of-the-fellowship.jpg' },
         { id: 'fall-of-isengard', name: 'Fall of Isengard', date: 'T.A. 3019', description: 'Ents\' attack on Isengard', imageUrl: 'fall-of-isengard.jpg' },
         { id: 'battle-of-pelennor-fields', name: 'Battle of the Pelennor Fields', date: 'T.A. 3019', description: 'Battle outside Minas Tirith', imageUrl: 'battle-of-pelennor-fields.jpg' },
@@ -102,18 +102,6 @@ const data: Record<string, ContentType[]> = {
         { id: 'entish', name: 'Entish', description: 'Language of the Ents', imageUrl: 'entish.jpg' },
         { id: 'westron', name: 'Westron', description: 'Common speech of Middle-earth', imageUrl: 'westron.jpg' },
     ],
-    chapters: [
-        { id: 'chapter-1', title: 'Chapter 1: A Long-expected Party', content: 'The story begins with Bilbo Baggins celebrating his eleventy-first birthday.', imageUrl: 'chapter-1.jpg' },
-        { id: 'chapter-2', title: 'Chapter 2: The Shadow of the Past', content: 'Gandalf reveals the true nature of the One Ring to Frodo.', imageUrl: 'chapter-2.jpg' },
-        { id: 'chapter-3', title: 'Chapter 3: Three is Company', content: 'Frodo, Sam, and Pippin set out on their journey to Rivendell.', imageUrl: 'chapter-3.jpg' },
-        { id: 'chapter-4', title: 'Chapter 4: A Short Cut to Mushrooms', content: 'The hobbits encounter a Black Rider in the Old Forest.', imageUrl: 'chapter-4.jpg' },
-        { id: 'chapter-5', title: 'Chapter 5: A Conspiracy Unmasked', content: 'Frodo reveals his plan to leave the Shire to Merry and Pippin.', imageUrl: 'chapter-5.jpg' },
-        { id: 'chapter-6', title: 'Chapter 6: The Old Forest', content: 'The hobbits get lost in the Old Forest and meet Tom Bombadil.', imageUrl: 'chapter-6.jpg' },
-        { id: 'chapter-7', title: 'Chapter 7: In the House of Tom Bombadil', content: 'Tom Bombadil rescues the hobbits from Old', imageUrl: 'chapter-7.jpg' },
-        { id: 'chapter-8', title: 'Chapter 8: Fog on the Barrow-downs', content: 'The hobbits are captured by Barrow-wights on the Barrow-downs.', imageUrl: 'chapter-8.jpg' },
-        { id: 'chapter-9', title: 'Chapter 9: At the Sign of the Prancing Pony', content: 'The hobbits meet Strider at the Prancing Pony in Bree.', imageUrl: 'chapter-9.jpg' },
-        { id: 'chapter-10', title: 'Chapter 10: Strider', content: 'Strider reveals himself as Aragorn, the heir of Isildur.', imageUrl: 'chapter-10.jpg' },
-    ],
 };
 
 export async function getContentData(contentType: string, slug: string): Promise<Page> {
@@ -148,8 +136,9 @@ export async function getContentData(contentType: string, slug: string): Promise
 }
 
 export async function getContentList(contentType: string): Promise<{ contentType: string }[]> {
-    if (!data[contentType]) {
-        throw new Error(`Invalid content type: ${contentType}`);
+    const validContentTypes = ['characters', 'locations', 'events', 'items', 'races', 'artifacts', 'languages', 'chapters'];
+    if (!validContentTypes.includes(contentType)) {
+        throw new Error(`Invalid content type: ${contentType}. Valid content types are: ${validContentTypes.join(', ')}`);
     }
     return data[contentType].map(item => ({...item, contentType})) || [];
 }

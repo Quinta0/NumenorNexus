@@ -7,7 +7,7 @@ export default function Header() {
         <Link href="/" className="flex items-center justify-center" prefetch={false}>
             <div className="size-6 mr-2">
                 <Image
-                    priority
+                    priority = {true}
                     src="logo.svg"
                     height={32}
                     width={32}
